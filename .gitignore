@@ -54,3 +54,11 @@ dkms.conf
 # STM32CubeIDE
 .metadata/
 .settings/
+Software Debug*
+Debug/
+
+# Config
+.vscode/
+
+# Others
+.DS_Store
