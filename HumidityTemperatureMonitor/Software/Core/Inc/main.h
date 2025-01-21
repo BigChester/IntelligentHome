@@ -31,12 +31,12 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <stdio.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-
+extern I2C_HandleTypeDef hi2c1;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -59,6 +59,10 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define SENSOR_LED_Pin GPIO_PIN_13
 #define SENSOR_LED_GPIO_Port GPIOC
+#define SHT3x_SCL_Pin GPIO_PIN_6
+#define SHT3x_SCL_GPIO_Port GPIOB
+#define SHT3x_SDA_Pin GPIO_PIN_7
+#define SHT3x_SDA_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
